@@ -47,14 +47,6 @@ public class UrlEntity {
         this.fullUrl = fullUrl;
     }
 
-    public String getLocal() {
-        return Local;
-    }
-
-    public void setLocal(String local) {
-        Local = local;
-    }
-
     public LocalDateTime getExpiresAt() {
         return expiresAt;
     }
